@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+.botaoMelhorTempo {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    font-size: 2em;
+    background-color: tan;
+}
+.botaoIniciar {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    font-size: 2em;
+    background-color: darkseagreen;
+}
+
+#tabuleiro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.carta {
+    width: 110px;
+    height: 110px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
